@@ -202,7 +202,7 @@ We evaluated the taxonomy by letting 15 experts categorize 10 representative use
 ## 5. Interview Questionnaires and Codebooks
 The following lists the questionnaires and codebooks for the first round of interviews (second iteration of the ETDP) and the second round of interviews (evaluation of the taxonomy).
 
-### Second Iteration of the ETDP
+### 5.1 Second Iteration of the ETDP
 
 **Questionnaire**
 
@@ -232,7 +232,7 @@ The following lists the questionnaires and codebooks for the first round of inte
 - Evaluation: User study, interviews.
 - Challenges: Unstructured process, implementation difficulties, employee resistance, resource limitations.
 
-### Evaluation of the Taxonomy
+### 5.2 Evaluation of the Taxonomy
 
 **Questionnaire**
 
