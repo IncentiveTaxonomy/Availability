@@ -1,0 +1,35 @@
+Dimension,Layer,Characteristic,∑,August2014,Giannetsos2014,Li2014,Liao2014,Shoshitaishvili2014,Nepal2015,Gisdakis2016,Naghizadeh2016,Naghizadeh2016a,Chatfield2017,Farhadi2017,Gonzalez2017,Korczynski2017,Abe2018,Xu2018,Zhan2018,Zhao2018,Berenjian2019,Kenneally2019,Kenneally2019a,Yang2019,Zhu2019,Goel2020,Morgner2020,Alkalabi2021,Goel2021,Kroll2021,Vlachos2021,Wessels2021,Arulprakash2022,Kolini2022,Li2022,Li2022a,Lu2022,McConnell2022,Wang2022,Wang2022a,Ali2023,Bates2023,Cai2023,He2023,Kalpana2023,Li2023,Rathore2023,Yoshioka2023,Sohail2024
+1. Target,Type,Individual,20,X,X,X,,X,,,X,,X,X,,,X,,X,X,,,,,X,X,,,X,X,X,,X,,,X,,,,,,,X,,,X,,X,
+,,Organization,11,X,,,X,,,,,X,,,X,,,,,,,,,X,,,X,X,,,,X,,X,,,,,X,X,,,,,,,,,
+,,Technology,16,,,,,,X,X,,,,,,X,X,X,,,X,X,X,,,,,,,,,,,,X,X,,,,,X,X,,X,X,,X,,X
+2. Outcome,Impact,Behavior enhancing,16,X,X,X,,,,,X,,,,X,,,,,,X,,,,X,X,,,X,X,X,X,X,,,,,,,,,,X,,,X,,X,
+,,Technology enhancing,15,,,,,,,X,,,X,,,,X,X,,,,X,X,,,,X,,,X,,,,,X,,,,,,X,X,,X,X,,X,,X
+,,Short-term,3,,,,X,,,,,,,,,,,,,,,,,,,X,,,X,,,,,,,,,,,,,,,,,,,,
+,,Long-term,2,X,,,,,,,,,,,X,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3. Mechanism,Economic,Money,26,X,X,X,X,X,X,X,X,,X,X,X,,,X,X,X,,,X,X,,X,,X,X,,,X,X,X,,X,,,,,X,,,,,X,,,X
+,,Regulation,6,,,,,,,,,,X,,,,,,,,,X,X,,,,X,X,,,,,,X,,,,,,,,,,,,,,,
+,,Data,5,,X,,,,,,,,,,X,,,X,,,,,,,,,,,,,,,X,X,,,,,,,,,,,,,,,
+,,Subsidy,2,,,,,,,,X,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,X,,,
+,Social,Reputation,13,,X,,,,,X,,X,,,,X,,,,,X,,X,X,,,,X,,,X,X,X,X,,,,,,,,,X,,,,,,
+,,Gamification,5,,,X,,X,,,,,,,,,,X,,,,,,,,,,,,,X,,,,,,,,,,X,,,,,,,,
+,,Feedback,4,,,,,,,,,,,,X,,,,,,,,,,,,,X,,X,,X,,,,,,,,,,,,,,,,,
+,,Certification,2,,,,,,,,,,,,X,,,,,,,,,,,,,,,,X,,,,,,,,,,,,,,,,,,
+4. Distribution,Mode,Reward,27,X,,X,,X,,X,,X,X,X,,X,X,X,X,X,,,,X,X,,,X,X,,,,X,X,,X,X,,,,X,X,X,,,X,X,X,X
+,,Penalty,15,,,,,,,,,X,X,,,,,,,X,,,,X,X,X,X,X,X,,,,X,X,,,X,,,,,X,,,,X,,X,
+,,Physical,3,,,,,,,,,,,,,,,,,,,,,,,X,,,X,,,,,,,,,,X,,,,,,,,,,
+,,Digital,16,,,,,X,,X,,,X,X,,,X,X,X,,,,,,,,,X,,,,,X,X,,X,,,X,,X,X,X,,,,X,,
+,,Manual,1,,,,,,,,,,,,,,,,,,,,,,,,,,X,,,,,,,,,,,,,,,,,,,,
+,,Automatic,15,X,,,,X,,X,,,X,X,,,X,X,X,,,,,,,,,X,,,,,X,,,X,,,,,X,X,,,X,,X,,
+,Terms,Prepaid,7,X,,,,,,X,,,,X,,,X,X,X,,,,,,,,,X,,,,,,,,,,,,,,,,,,,,,
+,,Postpaid,4,,,,,,,,,,X,,X,,,,,,,,,,,X,,,X,,,,,,,,,,,,,,,,,,,,
+,,Disclosed,15,X,,,,X,,X,,,X,X,,,X,,X,,,,,,,X,,X,X,,,,X,X,,X,,,,,,,X,,X,,,,
+,,Undisclosed,1,,,,,,,,,X,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Fixed,3,X,,,,,,,,,X,,,,,,X,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Dynamic,19,,,X,,X,,X,X,,,X,,,X,X,,,,,,X,,X,,X,X,,,,X,X,,X,,,,,X,X,X,,,,X,,X
+,Event,Competition,6,,,,,X,X,,,,X,,,,,,,,,,,,,,,,,,,,,X,,,,X,,,X,,,,,,,,
+,,Evaluation,2,,,,,,,,,,,,,,,,,,,,,,,,X,,X,,,,,,,,,,,,,,,,,,,,
+,,Surveillance,2,,,,,,,,,,,,,,,,,,,,,,,,X,,X,,,,,,,,,,,,,,,,,,,,
+,,Deadline & Goal,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,X,,,
+5. Evaluation,Method,User study,8,,,,,X,,,,,X,,,,,,X,,,,,,,X,X,X,X,,,,,,,,,,,,,,,,,X,,,
+,,Interviews,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,X,X,,,,,,,,,,,,,,,,,
+,,Simulation,22,,,X,X,,,X,,,,,X,X,X,X,,,X,,,X,X,,,,,,,,X,,X,X,X,,,X,,X,X,X,X,,X,X,X

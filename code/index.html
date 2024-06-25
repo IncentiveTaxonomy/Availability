@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="assets/img/favicon.ico" type="image/ico">
+        <!--Icons-->
+        <link href="assets/fonts/iconsmind/iconsmind.css" rel="stylesheet">
+        <link href="assets/fonts/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&display=swap"
+            rel="stylesheet">
+        <!-- Main CSS -->
+        <link href="assets/css/theme.min.css" rel="stylesheet">
+        <link href="assets/css/theme-shop.css" rel="stylesheet">
+
+        <title>Taxonomy Designer</title>
+    </head>
+
+    <body>
+        <!--Preloader Spinner-->
+        <div class="spinner-loader bg-gradient-secondary text-white">
+            <div class="spinner-border text-primary" role="status">
+            </div>
+            <span class="small d-block ms-2">Loading...</span>
+        </div>
+        <!--Header Start-->
+        <header class="z-index-fixed header-fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg">
+                <div class="container position-relative">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="img-fluid" style="color: #4e4b53;font-weight: 600;">Interactive Taxonomy of Cybersecurity Incentives</span>
+                    </a>
+
+                    <div class="d-flex align-items-center navbar-no-collapse-items order-lg-last">
+                        <button class="navbar-toggler order-last" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mainNavbarTheme" aria-controls="mainNavbarTheme" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                                <i></i>
+                            </span>
+                        </button>
+                        <div class="nav-item me-3 me-lg-0">
+                            <!-- <a href="#" class="btn btn-danger btn-sm rounded-pill"></a> -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--Main content-->
+
+        <main class="main-content" id="main-content">
+            <section class="position-relative">
+                <div class="container py-7 py-lg-11">
+                    <div class="col-md-12">
+                        <p class="lead mt-2" style="margin-bottom:-5rem;">
+                            Classify cybersecurity incentives using this interactive taxonomy by selecting the relevant characteristics. If multiple characteristics apply to a single choice, select the primary one. Hover over each characteristic to view descriptive examples.
+                        </p>
+                        <!-- <h1 class="mb-5 display-6">Design and Classify Cybersecurity Incentives</h1>
+                        <p class="mb-5 aos-init aos-animate" data-aos="fade-up">
+                            When multiple classifications are possible, select the primary characteristic.
+                        </p> -->
+                    </div>
+                    <div class="row">
+                        <!--Sidebar-->
+                        <div class="col-lg-3 mb-7 mb-lg-0 mb-sm">
+                            <!--Sidebar sticky elements-->
+                            <div class="position-sticky top-0 pt-12">
+                                 <!--widget-->
+                                <div class="sidebar-widget">
+                                    <div class="nav nav-indicator nav-indicator-dark d-flex flex-md-column justify-content-start me-md-3"
+                                        id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                        <a class="nav-link px-4 py-3 active mb-md-3" href="#tab-1"
+                                            data-bs-toggle="pill"
+                                            data-bs-target="#tab-1"
+                                            role="tab"
+                                            aria-controls="tab-1"
+                                            aria-selected="true">
+                                            <h5 class="text-reset">1. Target</h5>
+                                            <span>Selection of Target</span>
+                                        </a>
+                                        <a class="nav-link px-4 py-3 mb-md-3" href="#tab-2" data-bs-toggle="pill"
+                                            data-bs-target="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">
+                                            <h5 class="text-reset">2. Outcome</h5>
+                                            <span>Aim of the Outcome</span>
+                                        </a>
+                                        <a class="nav-link px-4 py-3 mb-md-3" href="#tab-3"    data-bs-toggle="pill"
+                                            data-bs-target="#tab-3"
+                                            role="tab"
+                                            aria-controls="tab-3"
+                                            aria-selected="false">
+                                            <h5 class="text-reset">3. Mechanism</h5>
+                                            <span>Selection of Mechanism</span>
+
+                                        </a>
+                                        <a class="nav-link px-4 py-3" href="#tab-4"
+                                            data-bs-toggle="pill"
+                                            data-bs-target="#tab-4"
+                                            role="tab"
+                                            aria-controls="tab-4"
+                                            aria-selected="false">
+                                            <h5 class="text-reset">4. Distribution</h5>
+                                            <span>Design of Distribution</span>
+                                        </a>
+                                        <a class="nav-link px-4 py-3" href="#tab-5"
+                                            data-bs-toggle="pill"
+                                            data-bs-target="#tab-5"
+                                            role="tab"
+                                            aria-controls="tab-5"
+                                            aria-selected="false">
+                                            <h5 class="text-reset">5. Evaluation</h5>
+                                            <span>Selection of Evaluation</span>
+                                        </a>
+                                            <span
+                                                class="nav-indicator-bg bg-gradient-secondary rounded-3 position-absolute d-block"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 pt-12 pt-sm">
+                            <div class="row mb-5">
+                                <div class="tab-content" id="tab-panel">
+                                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel"
+                                        aria-labelledby="tab-1-tab">
+
+                                        <!--:Sidebar widget card-->
+                                        <div class="card rounded-3 p-0 mb-4 shadow-sm card-body">
+                                            <!--:Title-->
+                                            <div class="d-flex-not p-3 border-bottom mb-3 align-items-center">
+                                                <h5 class="me-3 mb-0">Type</h5>
+                                                <span>Single Choice</span>
+                                                <!-- <div class="pt-1 flex-grow-1 bg-tint-info"></div> -->
+                                            </div>
+                                                <!--:list-->
+                                            <div class="p-3 pt-0">
+
+                                                <div class="d-flex" role="group" aria-label="Basic radio toggle button group">
+                                                    <input type="radio" class="btn-check" name="d1" id="d1-1" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d1-1" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., employees or users">
+                                                            Individual
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d1" id="d1-2" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d1-2" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., companies">
+                                                            Organization
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d1" id="d1-3" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d1-3" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., IoT networks">
+                                                            Technology
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <button class="btn-next btn btn-primary btn-hover-arrow btn-lg mb-1">
+                                            <span>Next Step</span>
+                                        </button>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2-tab">
+                                        
+                                        <!--:Sidebar widget card-->
+                                        <div class="card rounded-3 p-0 mb-4 shadow-sm card-body">
+                                            <!--:Title-->
+                                            <div class="d-flex-not p-3 border-bottom mb-3 align-items-center">
+                                                <h5 class="me-3 mb-0">Impact</h5>
+                                                <span>Multiple Choice</span>
+                                                <!-- <div class="pt-1 flex-grow-1 bg-tint-info"></div> -->
+                                            </div>
+                                                <!--:list-->
+                                            <div class="p-3 pt-0">
+
+                                                <ul class="list-unstyled mb-0">
+                                                    <li class="btn-group mb-2">
+                                                        <div class="d-flex flex-wrap gap-2" role="group" aria-label="Basic radio toggle button group">
+
+                                                            <input type="checkbox" class="btn-check" name="d2" id="d2-1">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d2-1" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., behavior of emplyees">
+                                                                Behavior
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d2" id="d2-2">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d2-2" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., technical performance of networks">
+                                                                Technical
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d2" id="d2-3">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d2-3" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., short-term behavior change">
+                                                                Short-term
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d2" id="d2-4">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d2-4" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., long-term behavior change">
+                                                                Long-term
+                                                            </label>
+
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <button class="btn-next btn btn-primary btn-hover-arrow btn-lg mb-1">
+                                            <span>Next Step</span>
+                                        </button>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3-tab">
+                                        
+                                        <!--:Sidebar widget card-->
+                                        <div class="card rounded-3 p-0 mb-4 shadow-sm card-body">
+                                            <!--:Title-->
+                                            <div class="d-flex-not p-3 border-bottom mb-3 align-items-center">
+                                                <h5 class="me-3 mb-0">Economic</h5>
+                                                <span>Single Choice</span>
+                                                <!-- <div class="pt-1 flex-grow-1 bg-tint-info"></div> -->
+                                            </div>
+                                                <!--:list-->
+                                            <div class="p-3 pt-0">
+                                                <div class="d-flex" role="group" aria-label="Basic radio toggle button group">
+                                                    <input type="radio" class="btn-check" name="d3" id="d3-1" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d3-1" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., salary bonus">
+                                                            Money
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d3" id="d3-2" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d3-2" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., for security patching">
+                                                            Regulation
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d3" id="d3-3" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d3-3" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., cyber threat intelligence (CTI)">
+                                                            Data
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d3" id="d3-4" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d3-4" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., financial benefits for organizations">
+                                                            Subsidy
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--:Sidebar widget card-->
+                                        <div class="card rounded-3 p-0 mb-4 shadow-sm card-body">
+                                            <!--:Title-->
+                                            <div class="d-flex-not p-3 border-bottom mb-3 align-items-center">
+                                                <h5 class="me-3 mb-0">Social</h5>
+                                                <span>Single Choice</span>
+                                                <!-- <div class="pt-1 flex-grow-1 bg-tint-info"></div> -->
+                                            </div>
+                                                <!--:list-->
+                                            <div class="p-3 pt-0">
+                                                <div class="d-flex" role="group" aria-label="Basic radio toggle button group">
+                                                    <input type="radio" class="btn-check" name="d3" id="d3-5" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d3-5" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., public recognition in bug bounty programs">
+                                                            Reputation
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d3" id="d3-6" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d3-6" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., leaderbords in capture the flag (CTF) competitions">
+                                                            Gamification
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d3" id="d3-7" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d3-7" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., feedback on employees' cybersecurity behavior">
+                                                            Feedback
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d3" id="d3-8" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d3-8" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., security certification such as CISSP">
+                                                            Certification
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button class="btn-next btn btn-primary btn-hover-arrow btn-lg mb-1">
+                                            <span>Next Step</span>
+                                        </button>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="tab-4-tab">
+                                        
+                                        <!--:Sidebar widget card-->
+                                        <div class="card rounded-3 p-0 mb-4 shadow-sm card-body">
+                                            <!--:Title-->
+                                            <div class="d-flex-not p-3 border-bottom mb-3 align-items-center">
+                                                <h5 class="me-3 mb-0">Mode</h5>
+                                                <span>Multiple Choice</span>
+                                                <!-- <div class="pt-1 flex-grow-1 bg-tint-info"></div> -->
+                                            </div>
+                                                <!--:list-->
+                                            <div class="p-3 pt-0">
+                                                <ul class="list-unstyled mb-0">
+                                                    <li class="btn-group mb-2">
+                                                        <div class="d-flex flex-wrap gap-2" role="group" aria-label="Basic radio toggle button group">
+
+                                                            <input type="checkbox" class="btn-check" name="d4a" id="d4-1">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Positive distribution by receiving something">
+                                                                Reward
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d4a" id="d4-2">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Negative distribution by limiting or taking something away">
+                                                                Penalty
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d4a" id="d4-3">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-3" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., physical trophies for capture the flag (CTF) events">
+                                                                Physical
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d4a" id="d4-4">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-4" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., digital badges, certifications or leaderbords">
+                                                                Digital
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d4a" id="d4-5">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-5" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., manually administering feedback">
+                                                                Manual
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d4a" id="d4-6">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-6" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., automatically emailing certificates">
+                                                                Automatic
+                                                            </label>
+
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <!--:Sidebar widget card-->
+                                        <div class="card rounded-3 p-0 mb-4 shadow-sm card-body">
+                                            <!--:Title-->
+                                            <div class="d-flex-not p-3 border-bottom mb-3 align-items-center">
+                                                <h5 class="me-3 mb-0">Terms</h5>
+                                                <span>Multiple Choice</span>
+                                                <!-- <div class="pt-1 flex-grow-1 bg-tint-info"></div> -->
+                                            </div>
+                                                <!--:list-->
+                                            <div class="p-3 pt-0">
+                                                <ul class="list-unstyled mb-0">
+                                                    <li class="btn-group mb-2">
+                                                        <div class="d-flex flex-wrap gap-2" role="group" aria-label="Basic radio toggle button group">
+
+                                                            <input type="checkbox" class="btn-check" name="d4b" id="d4-7">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-7" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., distributing prepaid gift cards">
+                                                                Prepaid
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d4b" id="d4-8">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-8" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., reimbursements for certifications like CISSP">
+                                                                Postpaid
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d4b" id="d4-9">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-9" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., publicly announced awards">
+                                                                Disclosed
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d4b" id="d4-10">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-10" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., individual feedback for employees">
+                                                                Undisclosed
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d4b" id="d4-11">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-11" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., fixed monetary rewards for capture the flag (CTF) challenges">
+                                                                Fixed
+                                                            </label>
+
+                                                            <input type="checkbox" class="btn-check" name="d4b" id="d4-12">
+                                                            <label class="shop-product-color btn p-0 me-2 center-both rounded-pill product-primary" for="d4-12" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., performance-based rewards for bug bounties">
+                                                                Dynamic
+                                                            </label>
+
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <!--:Sidebar widget card-->
+                                        <div class="card rounded-3 p-0 mb-4 shadow-sm card-body">
+                                            <!--:Title-->
+                                            <div class="d-flex-not p-3 border-bottom mb-3 align-items-center">
+                                                <h5 class="me-3 mb-0">Event</h5>
+                                                <span>Single Choice</span>
+                                                <!-- <div class="pt-1 flex-grow-1 bg-tint-info"></div> -->
+                                            </div>
+                                                <!--:list-->
+                                            <div class="p-3 pt-0">
+                                                <div class="d-flex" role="group" aria-label="Basic radio toggle button group">
+                                                    <input type="radio" class="btn-check" name="d4c" id="d4-13" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d4-13" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., capture the flag (CTF) events">
+                                                            Competition
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d4c" id="d4-14" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d4-14" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., performance reviews">
+                                                            Evaluation
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d4c" id="d4-15" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d4-15" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., activity tracking badges">
+                                                            Surveillance
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d4c" id="d4-16" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d4-16" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., deadline of capture the flag (CTF) challenges">
+                                                            Deadline & Goal
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button class="btn-next btn btn-primary btn-hover-arrow btn-lg mb-1">
+                                            <span>Next Step</span>
+                                        </button>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="tab-5" role="tabpanel" aria-labelledby="tab-5-tab">
+                                        
+                                        <!--:Sidebar widget card-->
+                                        <div class="card rounded-3 p-0 mb-4 shadow-sm card-body">
+                                            <!--:Title-->
+                                            <div class="d-flex-not p-3 border-bottom mb-3 align-items-center">
+                                                <h5 class="me-3 mb-0">Method</h5>
+                                                <span>Single Choice</span>
+                                                <!-- <div class="pt-1 flex-grow-1 bg-tint-info"></div> -->
+                                            </div>
+                                                <!--:list-->
+                                            <div class="p-3 pt-0">
+                                                <div class="d-flex" role="group" aria-label="Basic radio toggle button group">
+
+                                                    <input type="radio" class="btn-check" name="d5" id="d5-1" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d5-1" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., A/B tests to compare incentives' effectiveness">
+                                                            User study
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d5" id="d5-2" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d5-2" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., employees interviews to analyzes the incentives' effects">
+                                                            Interviews
+                                                    </label>
+
+                                                    <input type="radio" class="btn-check" name="d5" id="d5-3" autocomplete="off">
+                                                    <label
+                                                        class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary" for="d5-3" data-bs-toggle="tooltip" data-bs-placement="top" title="e.g., simulations to investigate the costs of incentives">
+                                                            Simulation
+                                                    </label>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a href="#modalForm" data-bs-toggle="modal" aria-expanded="false" class="btn-finish btn btn-primary btn-hover-arrow btn-lg mb-1">
+                                            <span>Finish</span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="position-relative py-7">
+                <div class="container position-relative">
+                    <div
+                        class="px-4 px-lg-6 py-7 py-lg-9 shadow-lg rounded-xl bg-secondary overflow-hidden text-white position-relative">
+
+                        <!--blob shape-->
+                        <svg class="position-absolute end-0 bottom-0 w-50 w-lg-40 h-auto text-warning" width="616"
+                            height="464" viewBox="0 0 616 464" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M529.02 0.372621C648.093 -8.86796 677.569 156.046 749.056 240.707C795.671 295.913 839.498 347.565 874.249 409.222C915.961 483.231 978.111 552.938 971.515 635.414C964.041 728.876 936.16 850.497 836.419 882.264C730.359 916.045 640.668 790.168 529.02 776.349C443.047 765.708 360.497 838.142 278.401 813.198C186.892 785.395 118.893 715.022 75.5428 638.567C27.1616 553.239 -34.224 443.94 23.1986 363.109C82.8766 279.102 248.222 335.31 335.376 272.811C431.969 203.541 405.102 9.98913 529.02 0.372621Z"
+                                fill="currentColor" />
+                        </svg>
+                        <!--blob shape-->
+                        <svg class="position-absolute end-0 bottom-0 w-50 mb-n7 me-n9 h-auto text-primary" width="616"
+                            height="464" viewBox="0 0 616 464" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M529.02 0.372621C648.093 -8.86796 677.569 156.046 749.056 240.707C795.671 295.913 839.498 347.565 874.249 409.222C915.961 483.231 978.111 552.938 971.515 635.414C964.041 728.876 936.16 850.497 836.419 882.264C730.359 916.045 640.668 790.168 529.02 776.349C443.047 765.708 360.497 838.142 278.401 813.198C186.892 785.395 118.893 715.022 75.5428 638.567C27.1616 553.239 -34.224 443.94 23.1986 363.109C82.8766 279.102 248.222 335.31 335.376 272.811C431.969 203.541 405.102 9.98913 529.02 0.372621Z"
+                                fill="currentColor" />
+                        </svg>
+
+                        <div class="row position-relative">
+                            <div class="col-12 col-md-10 col-lg-9 offset-lg-1">
+                                <h3 class="mb-4 display-4" data-aos="fade-down">
+                                    Get Source Code on GitHub
+                                </h3>
+                                <p class="mb-5 w-lg-75 lead" data-aos="zoom-in" data-aos-delay="100">
+                                    We published the source code of this interactive taxonomy as well as the details of the systematic literature review on Github.
+                                </p>
+                                <div data-aos="fade-up" data-aos-delay="150">
+                                    <a href="https://github.com/IncentiveTaxonomy/Availability" class="btn btn-primary btn-hover-arrow btn-lg">
+                                        <span>View on GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Modal Form-->
+            <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="modalFormLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content border-0">
+                        <div class="position-relative border-0 pe-4">
+                            <button type="button"
+                                class="btn-close position-absolute end-0 top-0 me-3 mt-3 size-40 p-0 center-both rounded-circle bg-tint-primary z-index-1"
+                                data-bs-dismiss="modal" aria-label="Close">
+                                <i class="bi bi-x fs-5"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body py-5 border-0">
+                            <div class="px-3">
+
+                                <h2 class="mb-1 display-6">
+                                    Your Classification
+                                </h2>
+                                <h5 class="mb-4 lead">
+                                    Here is the classification of your cybersecurity incentives in the taxonomy.
+                                </h5>
+                                <div class="position-relative">
+                                    
+                                    <h5 class="text-reset">1. Target</h5>
+
+                                    <div id="final-1">
+                                        <label class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary">
+                                            No selection
+                                        </label>
+                                    </div>
+
+                                    <h5 class="text-reset mt-3">2. Outcome</h5>
+
+                                    <div id="final-2">
+                                        <label class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary">
+                                            No selection
+                                        </label>
+                                    </div>
+
+                                    <h5 class="text-reset mt-3">3. Mechanism</h5>
+
+                                    <div id="final-3">
+                                        <label class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary">
+                                            No selection
+                                        </label>
+                                    </div>
+
+                                    <h5 class="text-reset mt-3">4. Distribution</h5>
+
+                                    <div id="final-4">
+                                        <label class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary">
+                                            No selection
+                                        </label>
+                                    </div>
+
+                                    <h5 class="text-reset mt-3">5. Evaluation</h5>
+
+                                    <div id="final-5">
+                                        <label class="shop-product-color btn px-2 me-2 center-both rounded-pill product-primary">
+                                            No selection
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--Footer Start-->
+        <!--Footer start-->
+        <footer class="position-relative bg-white overflow-hidden">
+            <div class="container py-7 py-lg-9">
+                <hr class="mb-5 mt-0">
+                <div class="row align-items-center">
+                    <div class="col-sm-7 mb-4 mb-sm-0">
+                        <div class="d-flex small align-items-center">
+                            <a class="d-block" href="https://github.com/IncentiveTaxonomy/Availability">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 text-sm-end"><span class="small text-muted">© 2024</span></div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- begin Back to Top button -->
+        <a href="#" class="toTop">
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 9' class="align-middle rotate-180" width="13"
+                height="9">
+                <path fill='currentColor'
+                    d="M12.25 2.30062L10.8988 0.949371L6.5 5.33854L2.10125 0.949371L0.75 2.30062L6.5 8.05062L12.25 2.30062Z">
+                </path>
+            </svg>
+        </a>
+        <!-- scripts -->
+        <script src="assets/js/theme.bundle.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                $(".btn-next").on( "click", function() {
+                    let current_tab = $(this).parent().attr("id").split("-")[1];
+                    let next_tab = parseInt(current_tab)+1;
+                    document.querySelector('[href="#tab-'+next_tab+'"]').click();
+                });
+
+                $(".btn-finish").on( "click", function() {
+
+                    let dimensions = ["1", "2", "3", "4a", "4b", "4c", "5"];
+                    let selectedValues = {};
+
+                    dimensions.forEach(function(dimension) {
+                        $('input[name="d'+dimension+'"]:checked').each(function() {
+                            let selectedValue = $(this).attr("id");
+                            let description = $('label[for="'+selectedValue+'"]').text().replace(/\s+/g, ' ').trim();
+                            if(!selectedValues[dimension]) {
+                                selectedValues[dimension] = [];
+                            }
+                            selectedValues[dimension].push(description);
+                        });
+                    });
+
+                    mergeKeys(selectedValues);
+
+                    $.each(selectedValues, function(key, value) {
+                        let totalHTML = "";
+                        selectedValues[key].forEach(function(description) {
+                            let singleHTML = generate_final_selection(description);
+                            totalHTML += singleHTML;
+                        });
+                        $('#final-'+key).html(totalHTML);
+                    });
+
+                });
+
+                function generate_final_selection(description) {
+                    let html = '<label class="final shop-product-color btn px-2 me-2 center-both rounded-pill product-primary">' + description + '</label>';
+                    return html;
+                }
+
+                function mergeKeys(obj) {
+                    let mergedValue = [];
+
+                    // Check and merge each key if it exists
+                    ['4a', '4b', '4c'].forEach(function(key) {
+                        if (obj[key]) {
+                            $.each(obj[key], function(k, v) {
+                                mergedValue.push(v);
+                            });
+                            delete obj[key];
+                        }
+                    });
+
+                    // Assign the merged value to the new key '4' if any value was merged
+                    if (mergedValue.length > 0) {
+                        obj['4'] = mergedValue;
+                    }
+                }
+
+            });
+        </script>
+    </body>
+
+</html>
