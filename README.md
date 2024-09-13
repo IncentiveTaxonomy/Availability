@@ -1,4 +1,4 @@
-# Give Them Candy
+# Taxonomy of Cybersecurity Incentives
 Cyberattacks are a major threat to organizations. To utilize employees' potential for organizational cybersecurity, incentives can motivate active engagement in cybersecurity. We conducted a systematic literature review (SLR) to create a taxonomy of cybersecurity incentives based on 46 publications. The evaluation of the developed taxonomy by 15 experts revealed very high inter-rater agreement, highlighting its robustness and potential applicability.
 
 This repository contains the interactive taxonomy's source code, the SLR and taxonomy building's documentation, the evaluation use cases, and interview questionnaires.
